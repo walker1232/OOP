@@ -25,7 +25,6 @@ public class MinusAccount extends Account{
 		}
 
 		
-		//super.setUid(String uid);
 		return String.format("%s\n%s\n계좌번호: %s\n이름: %s\n생성일: %s\n잔액: %d", BANK_NAME, super.getAccountType(), super.getAccountNo(), super.getName(), super.getCreateDate());
 	}
 }
