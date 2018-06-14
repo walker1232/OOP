@@ -13,7 +13,7 @@ public class Account {
 	public final static String DEPOSIT_SUCCESS="입금성공";
 	public final static String DEPOSIT_FAIL="적합한 입력값이 아님";
 	protected int money=0;
-	/*protected*/public String name,uid,pass,accountType,createDate,accountNo="";
+	protected String name,uid,pass,accountType,createDate,accountNo="";
 	// 통장 123-345-678 의 형태가 되도록 코딩
 	// 블로그에서 오늘 날짜 뽑는 로직 가져다 쓰기
 	public void setName(String name) {
